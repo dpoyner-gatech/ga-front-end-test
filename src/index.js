@@ -8,7 +8,7 @@ import Attract from "./js/scenes/attract";
 
 import { TransitionGroup } from "react-transition-group";
 
-import "./styles.css";
+import "./css/styles.css";
 
 class Application extends Component {
   constructor(props) {
@@ -21,8 +21,8 @@ class Application extends Component {
     return (
       <div className="Application">
         <div id="scenes">
-          <Attract />
-          <Gallery />
+          <Attract mode="closed" />
+          <Gallery mode="open" />
         </div>
       </div>
     );

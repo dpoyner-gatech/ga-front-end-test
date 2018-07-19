@@ -23,6 +23,7 @@ export default class Attract extends Component {
   onExiting() {}
 
   render() {
+    const { mode } = this.props;
     return (
       <TransitionGroup
         mountOnEnter={true}
@@ -31,9 +32,16 @@ export default class Attract extends Component {
         onEntered={this.onEntered}
         onExiting={this.onExiting}
         onExited={this.onExited}
+        in={mode === "open" ? true : false}
       >
-        <div className="attract scene" />
+        <div className={`attract scene ${mode}`}>
+          <h1> This is the Attract </h1>
+        </div>
       </TransitionGroup>
     );
   }
 }
+
+Attract.defaultProps = {
+  mode: "open"
+};

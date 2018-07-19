@@ -23,6 +23,7 @@ export default class Gallery extends Component {
   onExiting() {}
 
   render() {
+    const { mode } = this.props;
     return (
       <TransitionGroup
         mountOnEnter={true}
@@ -31,9 +32,16 @@ export default class Gallery extends Component {
         onEntered={this.onEntered}
         onExiting={this.onExiting}
         onExited={this.onExited}
+        in={mode === "open" ? true : false}
       >
-        <div className="gallery scene" />
+        <div className={`gallery scene ${mode}`}>
+          <h1>This is the Gallery</h1>
+        </div>
       </TransitionGroup>
     );
   }
 }
+
+Gallery.defaultProps = {
+  mode: "closed"
+};
