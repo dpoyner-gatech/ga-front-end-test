@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
 import PIXI from "pixi.js";
+
+import Gallery from "./js/scenes/gallery";
+import Attract from "./js/scenes/attract";
+
 import { TransitionGroup } from "react-transition-group";
 
 import "./styles.css";
@@ -16,7 +20,10 @@ class Application extends Component {
   render() {
     return (
       <div className="Application">
-        <TransitionGroup mountOnEnter={true} timeout={1000} />
+        <div id="scenes">
+          <Attract />
+          <Gallery />
+        </div>
       </div>
     );
   }
