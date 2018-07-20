@@ -1,7 +1,7 @@
 ## Gallagher & Associates — Front End Assessment
 
 ### Setup
-The url for development is hosted on [codesandbox.io](http://codesandbox.io). Developers should login to their github account and commit a PR when the assessment is completed.
+The url for development is hosted on [codesandbox.io](https://codesandbox.io/s/r0r02z9w9n). Developers should login to their github account and fork the sandbox (located in the top left of the CodeSandbox UI).
 
 The code is structured using OOP and dependencies [React](http://reactjs.org) and [React-Transition-Group](https://reactcommunity.org/react-transition-group/). Developer's are free to add additional dependencies at their discretions
 
