@@ -4,12 +4,10 @@ import ReactDOM from "react-dom";
 import Gallery from "./js/scenes/gallery";
 import Attract from "./js/scenes/attract";
 
-import PropTypes from "prop-types";
-
 import "./css/styles.css";
 
+// Presidential data to be used for the Attract/Gallery (Attract can also be you're own design).
 const data = require("./data/presidents.json");
-console.log(data);
 
 class Application extends Component {
   state = {
@@ -78,10 +76,3 @@ class Application extends Component {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Application />, rootElement);
-
-Application.propTypes = {
-  timeout: PropTypes.number
-};
-Application.defaultProps = {
-  timeout: 1000
-};
