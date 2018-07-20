@@ -15,7 +15,9 @@ All interactivity is up to the developer. It could be a slideshow, a zoom/pan ex
 ### Notes
 Developer's have free reign on the architecture and structure of the application. The provided code is similar to our web applications. Code will be assessed based on legibility, creativity and organization. Bonus points are giving for using advanced rendering engines such as [PIXI](http://pixijs.io) and [THREE.js](http://threejs.org). Smooth animation and interactivity are important and should be highly considered when implementing transitions and creating the gallery.
 
-Applications will not be judged on design (it helps if it looks nice), responsiveness and load time (based on asset size). Also, the applications build target is Google Chrome. G&A is not concerned with cross-browser capabilities at the moment.
+Applications will not be judged on design but it will help to have an aesthetically pleasing site. Responsive CSS is not too important as most of G&A application's are a fixed screen size. Load time is important from a programmatic standpoint. If the network is taking a while to load an asset that is not an issue.
+
+The Application only needs to target WebKit and Google Chrome.
 
 ### Completion
 The task should be completed within a reasonable timeframe. A few hours should be enough to create a simple animation sequence with basic interactivity. Please note the hours it took to complete. If it takes longer than a few hours than the results should be more impressive. If the developer finds that to be too short an amount of time then the developers should take note and commit what they have up until that point.
