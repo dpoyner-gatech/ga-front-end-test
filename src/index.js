@@ -8,6 +8,9 @@ import PropTypes from "prop-types";
 
 import "./css/styles.css";
 
+const data = require("./data/presidents.json");
+console.log(data);
+
 class Application extends Component {
   state = {
     scene: "attract",
@@ -53,11 +56,11 @@ class Application extends Component {
       >
         <div id="scenes">
           <Attract
-            mode={scene == "attract" ? "open" : "closed"}
+            mode={scene === "attract" ? "open" : "closed"}
             timeout={timeout}
           />
           <Gallery
-            mode={scene == "gallery" ? "open" : "closed"}
+            mode={scene === "gallery" ? "open" : "closed"}
             timeout={timeout}
           />
         </div>
