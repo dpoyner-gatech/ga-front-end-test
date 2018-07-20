@@ -2,8 +2,7 @@ import "../../css/scenes/attract.css";
 
 import React, { Component } from "react";
 
-import PIXI from "pixi.js";
-import { TransitionGroup } from "react-transition-group";
+import { Transition } from "react-transition-group";
 
 export default class Gallery extends Component {
   constructor(props) {
@@ -23,11 +22,12 @@ export default class Gallery extends Component {
   onExiting() {}
 
   render() {
-    const { mode } = this.props;
+    const { mode, timeout } = this.props;
+
     return (
-      <TransitionGroup
+      <Transition
         mountOnEnter={true}
-        timeout={1000}
+        timeout={timeout}
         onEntering={this.onEntering}
         onEntered={this.onEntered}
         onExiting={this.onExiting}
@@ -35,9 +35,9 @@ export default class Gallery extends Component {
         in={mode === "open" ? true : false}
       >
         <div className={`gallery scene ${mode}`}>
-          <h1>This is the Gallery</h1>
+          <h1> Here are the Presidents </h1>
         </div>
-      </TransitionGroup>
+      </Transition>
     );
   }
 }

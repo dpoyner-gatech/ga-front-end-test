@@ -1,0 +1,34 @@
+{
+  "Presidents":[
+    {
+      "name":"George Washington",
+      "portrait":"https://upload.wikimedia.org/wikipedia/commons/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+      "terms":[],
+      "party":""
+    },
+    {
+      "name": "John Quincy Adams",
+      "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/70/John_Adams%2C_Gilbert_Stuart%2C_c1800_1815.jpg",
+      "terms": [],
+      "party": ""
+    },
+    {
+      "name": "Thomas Jefferson",
+      "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Thomas_Jefferson_by_Rembrandt_Peale%2C_1800.jpg",
+      "terms": [],
+      "party": ""
+    },
+    {
+      "name": "James Madison",
+      "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/1d/James_Madison.jpg",
+      "terms": [],
+      "party": ""
+    },
+    {
+      "name": "James Monroe",
+      "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/95/James_Monroe_White_House_portrait_1819.gif",
+      "terms": [],
+      "party": ""
+    }
+  ]
+}
