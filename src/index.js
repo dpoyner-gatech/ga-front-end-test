@@ -11,6 +11,10 @@ import { TransitionGroup } from "react-transition-group";
 import "./css/styles.css";
 
 class Application extends Component {
+  state = {
+    scene: "attract"
+  };
+
   constructor(props) {
     super(props);
   }
