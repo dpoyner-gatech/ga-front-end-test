@@ -10,7 +10,7 @@ The developer should create two scenes which transition. There is a JSON object 
 
 The **Gallery** scene will be an interactive element which displays the presidential data. The gallery should animate in nicely and be able to go back to the attract after a certain period of inactivity. 
 
-All interactivity is up to the developer. It could be a slideshow, a zoom/pan experience or an interactive canvas. It is up to the developer to provide a creative solution with a solid user experience.
+All interactivity is up to the developer. It could be a slideshow, a zoom/pan experience or an interactive canvas. Please note, G&A is looking for developer creativity. Traditional and uninventive UI/UX experiences will be judged with more strictly than new and innovative ideas. Developer's are not limited to the tools and assets within this sandbox. Gallagher is looking to see how a front-end developer adapts to different code environments. It is up to the developer to provide a creative solution with a solid user experience.
 
 ### Notes
 Developer's have free reign on the architecture and structure of the application. The provided code is similar to our web applications. Code will be assessed based on legibility, creativity and organization. Bonus points are giving for using advanced rendering engines such as [PIXI](http://pixijs.io) and [THREE.js](http://threejs.org). Smooth animation and interactivity are important and should be highly considered when implementing transitions and creating the gallery.
