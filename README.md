@@ -20,6 +20,8 @@ Applications will not be judged on design (it helps if it looks nice), responsiv
 ### Completion
 The task should be completed within a reasonable timeframe. A few hours should be enough to create a simple animation sequence with basic interactivity. Please note the hours it took to complete. If it takes longer than a few hours than the results should be more impressive. If the developer finds that to be too short an amount of time then the developers should take note and commit what they have up until that point.
 
-Developer's will create a pull request on completion. They will need to use the Github icon located on the left side of the screen. The pull request should be *[Developer's last name]-complete* (Smith-complete).
+Developer's will create a pull request on completion. They will need to use the Github icon located on the left side of the screen. The pull request should be **[Developer's last name]-complete** (i.e. Smith-complete).
 
 **Good Luck! We look forward to seeing what you come up with!**
+
+P.S. If there are any questions or if help is needed, please feel free to reach me at [dpoyner@gallagherdesign.com](mailto:dpoyner@gallagherdesign.com)
