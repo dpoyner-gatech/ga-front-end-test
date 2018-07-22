@@ -41,10 +41,10 @@ class Application extends Component {
   }
 
   render() {
-    const { width, height } = this;
-    const { scene } = this.state;
+    const { width, height, props, state } = this;
 
-    const timeout = 1000;
+    const { scene } = state;
+    const { timeout } = props;
 
     return (
       <div
@@ -73,6 +73,10 @@ class Application extends Component {
     return `${window.innerHeight}px`;
   }
 }
+
+Application.defaultProps = {
+  timeout: 1000
+};
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Application />, rootElement);
