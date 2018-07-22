@@ -2,7 +2,7 @@
   "Presidents":[
     {
       "name":"George Washington",
-      "portrait":"https://upload.wikimedia.org/wikipedia/commons/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+      "portrait":"images/washington.jpg",
       "terms":[ 1788, 1792 ],
       "party":"Unaffiliated",
       "vice_president":["John Adams"],
@@ -10,7 +10,7 @@
     },
     {
       "name": "John Quincy Adams",
-      "portrait": "https://upload.wikimedia.org/wikipedia/commons/7/70/John_Adams%2C_Gilbert_Stuart%2C_c1800_1815.jpg",
+      "portrait": "images/adams.jpg",
       "terms": [ 1796 ],
       "party": "Federalist",
       "vice_president":["Thomas Jefferson"],
@@ -18,7 +18,7 @@
     },
     {
       "name": "Thomas Jefferson",
-      "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Thomas_Jefferson_by_Rembrandt_Peale%2C_1800.jpg",
+      "portrait": "images/jefferson.jpg",
       "terms": [ 1800, 1804 ],
       "party": "Democratic-Republican",
       "vice_president":["Aaron Burr","George Clinton"],
@@ -26,7 +26,7 @@
     },
     {
       "name": "James Madison",
-      "portrait": "https://upload.wikimedia.org/wikipedia/commons/1/1d/James_Madison.jpg",
+      "portrait": "images/madison.jpg",
       "terms": [ 1808, 1812 ],
       "party": "Democratic-Republican",
       "vice_president":["George Clinton", "Elbridge Gerry"],
@@ -34,7 +34,7 @@
     },
     {
       "name": "James Monroe",
-      "portrait": "https://upload.wikimedia.org/wikipedia/commons/9/95/James_Monroe_White_House_portrait_1819.gif",
+      "portrait": "images/monroe.jpg",
       "terms": [ 1816, 1820 ],
       "party": "Democratic-Republican",
       "vice_president":["Daniel D. Tompkins"],
