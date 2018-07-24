@@ -1,0 +1,131 @@
+.gallery {
+  width: 100%;
+  height: 100vh;
+  background: rgb(83, 162, 238);
+  background: radial-gradient(
+    circle,
+    rgba(193, 99, 99, 1) 0%,
+    rgba(83, 162, 238, 1) 100%
+  );
+  padding: 2em;
+}
+
+.gallery .title {
+  font-family: sans-serif;
+  font-size: 450%;
+  color: white;
+}
+
+.gallery .pres-group {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery .pres-group .pres {
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  padding: 1.5em;
+  margin: 2em;
+}
+
+.gallery .pres-group .pres:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.gallery .pres-group .pres.closed {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 30em;
+  height: 10em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all ease-out 0.3s;
+}
+.gallery .pres-group .pres.opened {
+  position: absolute;
+  z-index: 20;
+  width: 1180px;
+  height: 700px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: all ease-in 0.5s;
+}
+
+.pres h2 {
+  font-family: sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.gallery .pres-group .pres img {
+  width: 15em;
+}
+
+.gallery .pres-group .pres.opened .close {
+  font-size: 3em;
+  background: transparent;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 0;
+}
+
+.info.hide img,
+.info.hide .terms,
+.info.hide .party,
+.info.hide .vp,
+.info.hide .bio {
+  margin-top: 10px;
+}
+
+.info.hide {
+  opacity: 0;
+  height: 0;
+  transition: opacity 0.3s ease-out, height 0.3 ease-out 0.1s;
+}
+
+.info.show {
+  opacity: 1;
+  height: 100%;
+  transition: opacity 0.3s ease-in 0.2s;
+}
+
+.info.show img,
+.info.show .terms,
+.info.show .party,
+.info.show .vp,
+.info.show .bio {
+  margin-top: 0;
+  transition: margin 0.2s ease-in 0.2s;
+}
+
+.info.show img {
+  transition-delay: 0.3s;
+}
+
+.info.show .terms {
+  transition-delay: 0.35s;
+}
+
+.info.show .party {
+  transition-delay: 0.4s;
+}
+
+.info.show .vp {
+  transition-delay: 0.45s;
+}
+
+.info.show .bio {
+  transition-delay: 0.5s;
+}

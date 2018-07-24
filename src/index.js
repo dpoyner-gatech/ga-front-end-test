@@ -12,11 +12,13 @@ const data = require("./data/presidents.json");
 class Application extends Component {
   state = {
     scene: "attract",
-    timeout: 1000
+    timeout: 60000
   };
 
   constructor(props) {
     super(props);
+
+    this.switchScenes = this.switchScenes.bind(this);
   }
 
   componentDidMount() {
@@ -40,6 +42,12 @@ class Application extends Component {
     */
   }
 
+  switchScenes(newscene) {
+    this.setState({
+      scene: newscene
+    });
+  }
+
   render() {
     const { width, height, props, state } = this;
 
@@ -56,10 +64,12 @@ class Application extends Component {
           <Attract
             mode={scene === "attract" ? "open" : "closed"}
             timeout={timeout}
+            switchScenes={this.switchScenes}
           />
           <Gallery
             mode={scene === "gallery" ? "open" : "closed"}
             timeout={timeout}
+            switchScenes={this.switchScenes}
           />
         </div>
       </div>
@@ -75,7 +85,7 @@ class Application extends Component {
 }
 
 Application.defaultProps = {
-  timeout: 1000
+  timeout: 60000
 };
 
 const rootElement = document.getElementById("root");
