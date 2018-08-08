@@ -1,7 +1,7 @@
 {
-  "name": "new",
+  "name": "idromenos-complete",
   "version": "1.0.0",
-  "description": null,
+  "description": "G&A test",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {

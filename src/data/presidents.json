@@ -34,7 +34,7 @@
     },
     {
       "name": "James Monroe",
-      "portrait": "images/monroe.jpg",
+      "portrait": "images/monroe.gif",
       "terms": [ 1816, 1820 ],
       "party": "Democratic-Republican",
       "vice_president":["Daniel D. Tompkins"],
