@@ -1,7 +1,7 @@
 {
-  "name": "ga-tech-assessment",
+  "name": "idromenos-complete",
   "version": "1.0.0",
-  "description": "Front-end assessment test for G&A applicants.",
+  "description": "G&A test",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
