@@ -12,7 +12,6 @@ import "./css/type-styles.css";
 // Presidential data to be used for the Attract/Gallery (Attract can also be you're own design).
 const data = require("./data/presidents.json");
 
-
 class Application extends Component {
   state = {
     scene: "attract",
@@ -75,10 +74,6 @@ class Application extends Component {
     return `${window.innerHeight}px`;
   }
 }
-
-Application.defaultProps = {
-  timeout: 1000
-};
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Application />, rootElement);
