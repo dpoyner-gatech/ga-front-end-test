@@ -31,13 +31,12 @@ class Application extends Component {
     //
     // This is an example of how to switch scenes
     //
-    /*
+
     setInterval(() => {
       this.setState({
         scene: this.state.scene == "attract" ? "gallery" : "attract"
       });
-    }, 1000);
-    */
+    }, 5000);
   }
 
   render() {
@@ -55,11 +54,12 @@ class Application extends Component {
         <div id="scenes">
           <Attract
             mode={scene === "attract" ? "open" : "closed"}
-            timeout={timeout}
+            {...{ width, height, timeout }}
           />
           <Gallery
             mode={scene === "gallery" ? "open" : "closed"}
             timeout={timeout}
+            {...{ data }}
           />
         </div>
       </div>
